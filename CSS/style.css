@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+}
+
+.intro {
+  background-image: url("../Images/Pingu.avif");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display:flex;
+  align-items: center;   
+  justify-content: center;
+}
+
+.intro .link a {
+    color: red;
+    font-size: 5rem;;
+}
